@@ -53,49 +53,48 @@ I set up the VM's network, gave Kali a working IP configuration, checked that th
 
 I downloaded and installed the virtualization software that runs the lab.
 
-![Step 1](screenshots/1-vm-software-installed.png)
 
 ### Step 2. Configure the network settings
 
 Before adding Kali, I configured the virtual network so the VM can connect properly.
 
-![Step 2](screenshots/2-network-settings.png)
+
 
 ### Step 3. Download and extract Kali Linux
 
 I downloaded Kali Linux from the official website and extracted the files.
 
-![Step 3](screenshots/3-kali-downloaded-extracted.png)
+
 
 ### Step 4. Add Kali Linux to the virtual machine
 
 I imported the extracted Kali machine into the virtualization software.
 
-![Step 4](screenshots/4-kali-added.png)
+
 
 ### Step 5. Configure the IP settings
 
 I set up the IP configuration of the Kali VM (IP address, subnet mask, gateway and DNS).
 
-![Step 5](screenshots/5-ip-configuration.png)
+
 
 ### Step 6. Test the network connection
 
 I checked that the VM is connected and the network is working, using ping.
 
-![Step 6](screenshots/6-network-test.png)
+
 
 ### Step 7. Set the VM specs
 
 I decided how many resources the VM gets: RAM, storage and processors.
 
-![Step 7](screenshots/7-vm-specs.png)
+
 
 ### Step 8. Take a snapshot
 
 After everything was working, I took a snapshot. This is my clean baseline: if I break something later, I can restore the machine in one click.
 
-![Step 8](screenshots/8-snapshot.png)
+
 
 ---
 
@@ -136,7 +135,7 @@ This lab is for **education only**. Only test systems that you own or have clear
 ## 🔗 Tools & Resources
 
 - **Kali Linux:** https://www.kali.org/get-kali/
-- {{Virtualization software download link}}
+- **Virtual-Machine:**https://www.virtualbox.org/wiki/Downloads
 
 ---
 
@@ -145,4 +144,4 @@ This lab is for **education only**. Only test systems that you own or have clear
 **Armaghan Arshad**
 Cybersecurity student, University of Haripur
 
-LinkedIn: https://www.linkedin.com/in/armaghan-arshad-b3345828b
+LinkedIn: https://www.linkedin.com/in/m-armaghan-arshad-b3345828b/
